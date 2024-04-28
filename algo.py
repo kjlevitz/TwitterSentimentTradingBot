@@ -185,7 +185,7 @@ while(True):
             ## TEST CASES ##
             #latest_tweet = "THIS IS WONDERFUL" #Positive sentiment with no ticker
             #latest_tweet = "$TSLA is wonderful $GME" #Chooses first best which is TSLA.
-            #latest_tweet = "$GME sucks ass, but I am in love with how great $GMBL is."
+            #latest_tweet = "$GME sucks, but I am in love with how great $GMBL is."
 
         ## Get Sentiment
         sentiment = paralleldots.sentiment(latest_tweet)
